@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingpage.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Pinterest</h1>
+            <button>
+                <a href=
+"https://in.pinterest.com/pinterest/">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"https://i.pinimg.com/564x/a5/4b/f4/a54bf4dddd898c6172beda106217d3d0.jpg"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HOME 
+                        </a>
+                    </div>
+                    <p>
+                        The Home section is your personal feed where inspiration blooms. It’s a curated space filled with Pins from the boards you follow, suggestions based on your activity, and Pins from users whose tastes align with yours. It’s a dynamic tapestry of ideas, where fresh content appears each time you visit, offering endless inspiration for your next project, style upgrade, or recipe adventure. 
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            CREATE
+                        </a>
+                    </div>
+                    <p>
+                        The Create section is your canvas for imagination on Pinterest. It’s where you bring your ideas to life, crafting new Pins that showcase your creativity. Whether it’s a step-by-step DIY guide, a mouthwatering recipe, or a stunning photograph, this is the space to share your content with the world. It’s not just about posting; it’s about contributing to the community’s pool of creativity. 
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           EXPLORE
+                        </a>
+                    </div>
+                    <p>
+                        The Saved section is your personal collection of wonders on Pinterest. It’s an organized haven where you store your favorite finds, from the practical to the fantastical. Here, you categorize your aspirations, plans, and dreams into boards, making it easy to revisit and share. It’s your digital scrapbook, a visual archive of the things that spark joy and ignite your passion.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            A-143, 9th Floor, Sovereign 
+                            Corporate Tower, Sector-136, 
+                            Noida, Uttar Pradesh - 201305
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Pinterest is an American image sharing and social media service designed to enable saving and discovery of information (specifically "ideas") like recipes, home, style, motivation, and inspiration on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pinboards. Created by Ben Silbermann, Paul Sciarra, and Evan Sharp, Pinterest, Inc. is headquartered in San Francisco.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Landing page of :
+                <a href="https://in.pinterest.com/pinterest/" 
+                    target="_blank">
+                        Pinterest
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="landingpage.js"></script>
+</body>
+
+</html>
